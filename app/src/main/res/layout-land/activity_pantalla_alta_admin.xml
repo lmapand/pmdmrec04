@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    tools:context=".PantallaAltaAdmin">
+
+    <TextView
+        android:id="@+id/etqAltaAdminUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:paddingEnd="10dp"
+        android:text="@string/txtEtqAltaAdminUsuario"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/etqAltaAdminPass1"
+        app:layout_constraintEnd_toStartOf="@+id/txtAltaAdminUsuario"
+        app:layout_constraintTop_toBottomOf="@+id/etqAltaAdminApellidos" />
+
+    <EditText
+        android:id="@+id/txtAltaAdminUsuario"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/etqAltaAdminUsuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+    <TextView
+        android:id="@+id/etqTitAltaAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/txtEtqTitAltaAdmin"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread_inside" />
+
+    <TextView
+        android:id="@+id/etqAltaAdminPass1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:paddingEnd="10dp"
+        android:text="@string/txtEtqAltaAdminPass1"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/etqAltaAdminPass2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/etqAltaAdminUsuario" />
+
+    <EditText
+        android:id="@+id/txtAltaAdminPass1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBaseline_toBaselineOf="@+id/etqAltaAdminPass1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+    <TextView
+        android:id="@+id/etqAltaAdminPass2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:paddingEnd="10dp"
+        android:text="@string/txtEtqAltaAdminPass2"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/etqAltaAdminCorreo"
+        app:layout_constraintEnd_toStartOf="@+id/txtAltaAdminPass2"
+        app:layout_constraintTop_toBottomOf="@+id/etqAltaAdminPass1" />
+
+    <EditText
+        android:id="@+id/txtAltaAdminPass2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBaseline_toBaselineOf="@+id/etqAltaAdminPass2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+    <TextView
+        android:id="@+id/etqAltaAdminCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:paddingEnd="10dp"
+        android:text="@string/txtEtqAltaAdminCorreo"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btAlataAdminRegistrar"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/etqAltaAdminPass2" />
+
+    <EditText
+        android:id="@+id/txtAltaAdminCorreo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textWebEmailAddress"
+        app:layout_constraintBaseline_toBaselineOf="@+id/etqAltaAdminCorreo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+    <Button
+        android:id="@+id/btAlataAdminRegistrar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="@string/txtBtRegistrarAdmin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etqAltaAdminCorreo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="@string/txtEtqAltaAdminNombre"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/etqAltaAdminApellidos"
+        app:layout_constraintEnd_toStartOf="@+id/txtAltaAdminNombre"
+        app:layout_constraintTop_toBottomOf="@+id/etqTitAltaAdmin"
+        android:paddingEnd="10dp" />
+
+    <TextView
+        android:id="@+id/etqAltaAdminApellidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:paddingEnd="10dp"
+        android:text="@string/txtEtqAltaAdminApellidos"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/etqAltaAdminUsuario"
+        app:layout_constraintEnd_toStartOf="@+id/txtAltaAdminApellidos"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/txtAltaAdminApellidos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/etqAltaAdminApellidos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+    <EditText
+        android:id="@+id/txtAltaAdminNombre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.44" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,96 @@
+<resources>
+    <!--Aplicacion y titulos de de Activities-->
+    <string name="app_name">PMDMREC04</string>
+    <string name="txtTituloPantallaPrincipal">"DESCONFINADOR"</string>
+    <string name="txtTituloPantallaUsuario">"Area Usuario"</string>
+    <string name="txtTituloPantallaAdministrador">"Area Administrador"</string>
+    <string name="txtTituloPantallaAsignarFase">"Asignar Fase"</string>
+    <string name="txtTituloPantallaCrearFase">"Registrar Fase"</string>
+    <string name="txtTituloPantallaAltaAdmin">"Registrar Administrador"</string>
+
+    <!-- Activity Principal-->
+    <string name="txtEtqBienvenida">Bienvenidos a la Aplicación de Desconfinamiento</string>
+    <string name="txtEtqUsuario">Usuario</string>
+    <string name="txtEtqContras">Contraseña</string>
+    <string name="txtBtSelecUsuario">Entrar como usuario</string>
+    <string name="txtBtSelecAdmin">Entrar como Admin</string>
+    <string name="txtBtLogIn">Iniciar Sesión</string>
+    <string name="txtBtLogOut">Cerrar Sesión</string>
+    <string name="txtBtNuevoAdmin">Nuevo Administrador</string>
+    <string name="hintTxtUsuario">Indique aquí usuario</string>
+    <string name="hintTxtContras">Indique aqui la contraseña</string>
+    <string name="hintNFTxtCaract">Escribir aqui característica</string>
+
+
+    <!--Dialog Login-->
+    <string name="txtErrorDlgLoginCamposRequeridos">Faltan los campos Usuario y/o Contraseña</string>
+    <string name="txtErrorDlgLoginErrorVerificacion">Usuario y/o contraseña incorrectos</string>
+    <!-- Activity Usuario-->
+    <string name="txtEtqSpinnerUsuProvincia">"Pulse sobre la provincia a consultar:"</string>
+    <string name="txtBtVerFaseProvincia">"Ver Fase desconfinamiento"</string>
+    <string name="txtBtUsuarioSalir">"Salir"</string>
+
+    <!-- Activity VerProvincia -->
+    <string name="txtErrorPasoProvincia">No se pudieron recuperar los datos de la provincia</string>
+    <string name="txtEtqVPFase">Fase actual:</string>
+
+    <!-- Activity Admin-->
+    <string name="txtBtAnadirFase">Añadir Fase</string>
+    <string name="txtBtAsignarFase">Asignar Fase a Provincia</string>
+
+
+    <!-- Activity ALta Admin-->
+    <string name="txtEtqTitAltaAdmin">Datos de nuevo Adimistrador:</string>
+    <string name="txtEtqAltaAdminNombre">Nombre:</string>
+    <string name="txtEtqAltaAdminApellidos">Apellidos:</string>
+    <string name="txtEtqAltaAdminUsuario">Usuario:</string>
+    <string name="txtEtqAltaAdminPass1">Contraseña(6 - 12 caracteres):</string>
+    <string name="txtEtqAltaAdminPass2">Repertir Contraseña:</string>
+    <string name="txtEtqAltaAdminCorreo">Correo Electrónico:</string>
+    <string name="txtBtRegistrarAdmin">Registrar</string>
+
+
+
+
+    <!-- Activity AsignarFase-->
+    <string name="txtEtqSpinnerAFProvincia">Seleccionar Provincia:</string>
+    <string name="txtEtqSpinnerAFFase">Seleccionar la Fase a asignar:</string>
+    <string name="txtBtAFAsignar">Asignar</string>
+
+
+    <!-- Activity NuevaFase -->
+    <string name="txtEtqNFSelecIDFase">Seleccionar Número de Fase:</string>
+    <string name="txtEtqListaCaracteristicas">Características:</string>
+    <string name="tttBtNFAddCaractersitca">Añadir Característica</string>
+    <string name="txtBtNFRegistrarFase">Añadir Fase</string>
+    <string name="txtEtqNFCaracteristicas"><i>(Aquí irían las caracterisitcas según se añadan en un Widget conn scroll)</i></string>
+
+
+
+    <!-- Dialogo 'No implementado'-->
+    <string name="txtDlgNITitulo"><i>NO SE PUEDE REGISTRAR</i></string>
+    <string name="txtDlgNITexto"><i>Debe indicarse alguna característica de la fase para que pueda ser registrada</i></string>
+    <string name="txtDlgNIBtAceptar"><i>ACEPTAR</i></string>
+
+    <!-- Dialogo Error Alta Admin-->
+    <string name="txtTituloDlgErrorAltaAdmin">ERROR EN LOS DATOS</string>
+    <string name="txtDlgErrorAltaAdminBtAceptar"><i>ACEPTAR</i></string>
+
+    <!-- Textos directos-->
+    <string name="txtErrorCampoVacio">Este campo no puede estar vacío</string>
+    <string name="txtErrorFormatoIncorrecto">El formato para este campo no es correcto</string>
+    <string name="txtErrorFalloVerificacion">Fallo de verificación: usuario y/o contraseña incorrectos</string>
+    <string name="txtErrorContrasNoCoinciden">La contraseña y su verificacion no coinciden</string>
+    <string name="txtErrorLoginEnUso">El LOGIN  indicado ya está en uso: indique otro</string>
+    <string name="provincia">Provincia de %1$s</string>
+    <string name="fase_asignada">Actualmente en fase %1$d</string>
+    <string name="resultado_asignacion_exito">Asignada fase %1$d a la provincia de  %2$s</string>
+    <string name="resultado_asignacion_error">Se ha producido un error al realizar la asignación</string>
+    <string name="txtEtqUsuarioNoVerificado">Usuario Anónimo</string>
+    <string name="fmtConectadoComo">Conectado como %1$s %2$s</string>
+    <string name="txtLogOutCorrecto">Ha cerrado la sesión de Administrador</string>
+    <string name="txtFaseCreadaCorrectamente">Se ha añadido la Fase %1$d</string>string>
+    <string name="txtFaseErrorCreacion">Se produjo un error al intentar registrar la fase %1$d</string>
+    <string name="tttCambiarImagenProvincia">Pulsa para activar la cámara y sustutuír la imagen</string>
+
+</resources>
